@@ -22,7 +22,7 @@ var adapter = require('floating-adapter');
 
 var Decimal = require('abs-arbitrary-precision')(require('linear-arbitrary-precision')(adapter));
 
-new Decimal('-12').abs().valueOf(); // => -12
+new Decimal('-12').abs().valueOf(); // => 12
 ```
 
 See [spec](test/spec.js).
